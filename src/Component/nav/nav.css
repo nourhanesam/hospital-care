@@ -1,0 +1,130 @@
+nav{
+    background-color: #fff;
+    width: 100% !important;
+    height: auto;
+    border-radius: 0px !important;
+    z-index: 1000;
+
+}
+.fluid{
+    margin-left: 15px;
+}
+
+:root{
+  --maincolor:#1f2278;
+  --orange:#f17732;
+  --btn:#565acf;
+}
+nav .navbar-nav a{
+color: var(--maincolor);
+font-weight: 600;
+letter-spacing: 1px;
+margin-right: 10px;
+font-size: 17px;
+ transition: 0.3s ease all;
+
+}
+nav .navbar-nav a:hover,
+nav .navbar-nav a:focus{
+    color: var(--orange) !important;
+}
+nav .navbar-nav{
+    margin-top: 12px;
+}
+nav .navbar-nav a.active{
+    color: var(--orange) !important;
+}
+nav .navbar-nav svg.phone{
+  margin-right: 8px;
+
+}
+nav .navbar-nav button{
+    background-color: var(--btn);
+    outline: none;
+    border: 1px solid var(--btn);
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.3s ease all;
+
+}
+nav .navbar-nav button:hover{
+    background-color: rgb(60, 60, 175);
+    border: 1px solid rgb(60, 60, 175);
+}
+nav .navbar-nav button span{
+    background-color: #fff;
+    color: var(--btn);
+    width: 40px;
+    border-radius: 4px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 15px;
+    font-size: 17px;
+}
+.navbar-nav .dropdown-menu{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    width: 200px;
+    z-index: 1000;
+
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    background-color: var(--btn);
+    border: 1px solid var(--btn);
+    border-radius:0px;
+
+}
+.navbar-nav .dropdown-menu li{
+    width: 100%;
+    height: 30px !important;
+    position: relative;
+    z-index: 10000;
+}
+.navbar-nav .dropdown-menu a{
+    color: #444;
+    font-size: 14px;
+    line-height: 30px !important;
+    position: relative;
+    transition: 0.3s ease all;
+}
+.navbar-nav .dropdown-menu a:hover{
+    color: var(--btn) !important;
+}
+.navbar-nav .dropdown-menu a:hover ::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20px;
+    height: 2px;
+    background-color: var(--maincolor);
+    color: var(--maincolor);
+} 
+ .navbar-nav .dropdown-menu li:hover a{
+    color: var(--btn);
+ }
+ @media only screen and (max-width:993px){
+    nav .navbar-nav .dropdown-menu {
+        width: 100%;
+    }
+    nav .navbar-nav button{
+        margin-top: 0px;
+    }
+ }
+.arr{
+    background-color: #fff !important;
+    color: #565acf !important;
+    height: 22px;
+    width: 28px;
+}

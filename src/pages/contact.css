@@ -1,0 +1,391 @@
+.contact .container{
+    border-radius: 40px;
+    box-shadow: 0 10px 60px 0 rgba(31,34,120,.1);
+    margin-top: 10px;
+    padding: 30px 50px 40px;
+    position: relative;
+    margin-bottom: 30px;
+    
+}
+.contact{
+    margin-top: 0px !important;
+    padding-bottom: 0 !important;
+}
+form{
+    background-color: #fff;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    padding: 15px;
+}
+form input, form textarea, form select{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid rgba(86, 90, 207, .3) !important;
+    padding: 10px ;
+    margin: 10px 0;
+border-radius: 8px;
+color: #000 !important;
+font-size: 17px;
+outline: none !important;
+font-size: 16px;
+font-weight: 500;   
+ transition: 0.3s ease-in-out;
+}
+form input:hover,
+form textarea:hover{
+    border: 1px solid #565acf !important;
+
+    background-color: #f6f6f6;
+}
+form .form-control{
+  color: #000;
+    border: none ;
+}
+form button{
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+    background-color: var(--orange) !important;
+    color: #fff;
+    border: 1px solid var(--orange) !important;
+    border-radius: 4px !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+}
+.con{
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+}
+form button:hover{
+    background-color: transparent !important;
+    color: var(--orange);
+}
+form textarea{
+    height: 120px;
+}
+form p{
+    color: red;
+    width: 100%;
+    height: 50px;
+    line-height: 40px;
+    background-color: #fff;
+    border: 1px solid red;
+    padding: 8px 8px;
+    text-transform: uppercase;
+}
+.slide{
+    background: url("../img/panner1.jpg") center ;
+    background-size: cover;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    background-repeat:repeat;
+    background-size:50% auto;
+    height: 580px;
+
+}
+.slide .overlay{
+    background-color: #565acf;
+    opacity: 0.9;
+    border-radius: 8px;
+    padding: 40px 40px;
+    width: 100%;
+    height: 100%;
+
+}
+.slide .overlay h3{
+    color: #fff;
+    font-size: 24px;
+    margin-top: 35px !important;
+
+}
+.slide .overlay li{
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: bold;
+
+}
+.slide .overlay li svg{
+    margin-right: 15px;
+
+}
+.slide .overlay p{
+    color: #fff;
+    font-size: 17px;
+    margin: 10px 0;
+}
+.slide .overlay hr{
+    width: 70%;
+    color: #fff;
+    background-color: #fff;
+}
+.slide .overlay ul{
+    padding: 0;
+
+}
+.slide .overlay ul li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+   background-color: #fff;
+   border-radius: 4px;
+
+margin-right: 10px;}
+.slide .overlay ul li svg{
+color: #565acf;
+padding-left: 9px;
+}
+.slidecon .container{
+  background-color: transparent;
+  padding: 25px 0 35px;
+}
+.slidecon .container h5{
+    color: var(--maincolor);
+    margin: 15px 0;
+}
+.slidecon .container .row .side{
+    background-color: #fff;
+    border: 1px solid #565acf;
+    border-radius: 8px;
+    box-shadow: 0 5px 30px 0 rgba(31,34,120,.08);
+    padding: 30px 35px 30px;
+overflow: hidden;
+width: calc(33.33% - 20px);
+margin-right: 10px;
+margin-left: 10px;
+/* margin-right: 100px; */
+}
+.slidecon .container .row .side .imgg{
+    width: 50px;
+    margin-bottom: 15px;
+}
+.slidecon .container .row .side .imgg img{
+    width: 100% !important;
+    height: auto !important;
+}
+.slidecon .container .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.slidecon .container .row .side .contentt p{
+line-height: 10px;
+font-size: 17px;
+}
+.slidecon .container .row .side:hover img{
+    animation: move 0.5s alternate ease-in-out;
+}
+@keyframes move{
+    10%, 90%{
+        transform: translateX(-1px);
+    }
+  
+20%, 80% {
+        transform: translateX(2px);
+    }
+    30%, 50%, 70%{
+          transform: translate3d(-4px, 0, 0);
+}
+    40%, 60%{
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .q{
+        margin-top: 40px;
+    }
+    .contact .container {
+    padding: 5px 0px 24px !important;
+
+}
+.slidecon .container .row .side .contentt p {
+    line-height: 15px;
+    font-size: 13px;
+}
+.contentt h5 {
+    font-size: 18px;
+    font-weight: 1000;
+}
+.slidecon .container .row .side {
+    width: 223px;
+    margin-top: 15px;
+}
+    .panner h2 {
+    font-size: 69px !important;
+
+}
+form select{
+        margin: 10px;
+    width: 96%;
+}
+.comment p {
+font-size: 17px !important;
+}
+.blogdetails h2 {
+    font-size: 32px !important;
+}
+.docdetails p, .review p{
+    font-size: 15px;
+}
+.precomment {
+    padding: 16px;
+}
+#root .content {
+    margin-top: 53% !important;
+}
+
+}
+@media screen and ( max-width:1100px){
+    #root .content {
+    margin-top: 76% !important;
+}
+
+}
+@media screen and ( max-width:1030px){
+    #root .content {
+    margin-top: 5% !important;
+}
+}
+@media screen and ( max-width:1290px){
+    #root .content {
+    margin-top: 20% !important;
+}
+}
+
+@media screen and ( max-width:560px){
+    #root .content {
+    margin-top: 15% !important;
+}
+
+}
+
+@media screen and ( max-width:450px) {
+    .q .quetion h2 button {
+    font-size: 14px;
+}
+.panner h2 {
+    font-size: 60px !important;
+    margin: 8px 0 !important;
+    line-height: 75px !important;
+}
+.panner li{
+    color: #fff;
+    width: 194px;
+    line-height: 45px;
+    margin: 5px auto 77px;
+    font-size: 14px;
+
+}
+.heading h2 {
+    font-size: 34px !important;
+}
+.titleblog a {
+    font-weight: 600;
+    font-size: 20px !important;
+}
+.slidecon .container .row .side {
+    width: 323px;
+    margin-top: 15px;
+    
+}
+.slidecon .container .row .side .contentt p {
+    font-size: 16px;
+    line-height: 17px;
+}
+.contact .container {
+    border-radius: 0px;
+    padding: 0px 0px ;
+}
+form select{
+        margin: 10px;
+    width: 94% !important;
+}
+.slide{
+    margin-top: 58px;
+}
+.row .circle {
+    left: -7px;
+    top: 106px;
+}
+   .comment p {
+        font-size: 13px !important;
+    }
+    .comment img {
+    width: 60px !important;
+    }
+
+.tagshare{ display: flex;
+    flex-wrap: wrap;
+}
+.precomment {
+margin-left: 0 !important;
+}
+.gallery .imgess img {
+    width: 29% !important;
+}
+.doctors .doc {
+    margin-top: 10px;
+}
+.booking .book {
+    padding: 60px 0 !important;
+    width: 89%;
+    margin: 0 !important;
+}
+.form form::before {
+    top: 13px !important;
+    left: 0px !important;
+
+}#root .content {
+    margin-top: 42% !important;
+}
+
+}
+
+@media screen and ( max-width:350px){
+    .btnblog a {
+    padding: 5px 11px !important;
+    font-size: 15px !important;
+}
+.titleblog a {
+        font-size: 19px !important;
+    }
+    .q .quetion h2 button {
+        font-size: 13px;
+    }
+        .panner h2 {
+        font-size: 50px !important;
+    }
+    .row .circle {
+    left: -7px;
+    top: 106px;
+}
+
+}
+
+
+@media screen and ( max-width:376px){
+#root .content {
+    margin-top: 53px !important;
+}
+}
+@media screen and ( max-width:361px){
+#root .content {
+    margin-top: 88px !important;
+}
+}
+

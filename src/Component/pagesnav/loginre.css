@@ -1,0 +1,62 @@
+#root .content, .login, .reg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+#root{
+    margin: auto;
+    height: 100vh;
+    background-color: #f5f5fc;
+
+}
+#root .content{
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 20px;
+        box-shadow: 0 10px 60px 0 rgba(31, 34, 120, .1);
+        text-align: center;
+        margin-bottom: auto; 
+        margin-top: 10%;
+}
+#root .row{
+    margin: auto  !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#root .input{
+    border: 1px solid rgba(86, 90, 207, .3);
+    border-radius: 8px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    height: 60px;
+}
+#root .content .login a,
+#root .content .reg a{
+    width: 100% !important;
+  
+
+}
+#root .content .login .btn{
+    background-color: var(--btn) !important;
+   border: 1px solid var(--btn) !important;
+      border-radius: 8px !important;
+        margin-top:20px !important ;
+}
+#root .content .reg .btn:hover{
+    background-color:rgba(255, 166, 0, 0.559) !important;
+    border: 1px solid rgba(255, 166, 0, 0.559) !important;
+}
+
+
+#root .content .reg .btn{
+  margin-top:5px !important ;
+   border-radius: 8px !important;
+}
+h7{
+    margin-top: 30px !important;
+}

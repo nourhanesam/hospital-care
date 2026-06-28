@@ -1,0 +1,44 @@
+.form{
+background-color: #fff;
+position: relative;
+padding: 40px;
+border-radius:30px ;
+margin-left: 10px;
+box-shadow: -3px -5px 11px 0px rgb(0 0 0 / 18%);
+text-align: center;
+}
+
+.form form::before {
+    content: "";
+    position: absolute;
+    border-radius: 52px;
+    border: 3px solid var(--btn);
+    width: 100%;
+    height: 102%;
+    top: -20px;
+    left: -39px;
+    z-index: -1;
+}
+
+.booking .book{
+    padding: 60px;
+    
+}
+.form h4{
+    font-weight: 700;
+}
+.form .btn,
+.formbook .btn {
+    border-radius: 8px;
+    background-color: var(--orange);
+    color: #fff;
+    padding: 28px 30px;
+    border: 1 solid var(--orange);
+    line-height: 0px;
+}
+.form select,
+.form input,
+.formbook select,
+.formbook input{
+border-radius: 14px !important;
+}

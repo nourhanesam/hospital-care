@@ -1,0 +1,113 @@
+.sec .img img{
+    width: 100%;
+    height: auto;
+}
+.img{
+    border-radius: 5px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.sec{
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(86, 90, 207, .2);
+    padding: 20px;
+transition: 0.3s all ease-in-out;
+margin-bottom: 20px;
+}
+.sec:hover{
+    border: 2px solid #fff;
+    box-shadow: 0 10px 30px 0 rgba(31,34,120,.1);
+    
+}
+.info ul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+.info ul li{
+    display: flex;
+    align-items: center;
+    color: var(--orange) !important;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.info ul li a{
+    display: flex;
+    align-items: center;
+    color: var(--orange) !important;
+    margin-right: 20px;
+}
+
+.info ul li img{
+    width: 30px;
+    border-radius:50% ;
+    margin-right: 5px;
+}
+.info ul li svg{
+    margin-right: 5px;
+}
+.doc{
+    padding: 0 !important;
+    margin-left: 3px !important;
+}
+.titleblog{
+        margin-bottom: 20px;
+}
+.titleblog a{
+
+    font-weight: 700;
+    font-size: 26px;
+    color:var(--maincolor)!important;
+}
+.btnblog a {
+    padding: 10px 20px;
+    color: #565acf;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    border: 2px solid #565acf ;
+    transition: 0.5s ease-in-out;
+ }
+ a svg{
+    background:#565acf !important;
+    color: #fff !important;
+    padding: 5px;
+    border-radius: 6px;
+    margin-left: 7px;
+}
+.btn:hover{
+    background-color:#565acf !important;
+    color: #fff;
+    border: 2px solid #565acf ;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns button{
+    margin-right: 7px;
+    padding: 10px;
+    color: #565acf;
+    background-color: #fff;
+    border: 1px solid #565acf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btns .onee button{
+  background-color: #565acf;
+    color: #fff;  
+}
+.btns button:hover{
+    background-color: #565acf;
+    color: #fff;
+}

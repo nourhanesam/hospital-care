@@ -1,0 +1,320 @@
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+.doc{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   padding-left: 0 !important;
+
+}
+.doc li img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.doc li{
+    color: var(--orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+.doc li svg{
+    margin-right: 10px;
+    font-size: 20px;
+}
+h2{
+    color: var(--maincolor) !important;
+    font-size: 40px !important;
+    font-weight: 700 !important;
+}
+p{
+margin-bottom: 1rem;
+font-weight: 400;
+}
+.comment{
+    display: flex;
+    align-items: center;
+    background-color: var(--orange);
+    padding: 20px;
+    border-radius: 7px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.comment img{
+    width: 90px;
+    margin-right: 10px;
+}
+.comment p{
+   font-style: italic;
+   font-weight: 600 !important;
+   margin-bottom: 0;
+   font-size: 22px ;
+   width: 100%;
+   color: #fff !important;
+}
+.imgs{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-left: 0 !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.imgs li {
+    margin-right: 20px;
+}
+.imgs li img{
+    width: 100%;
+}
+.tagshare{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+        margin-top: 30px;
+}
+.tagshare .tags{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tagshare .share ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.tagshare{
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 30px;
+}
+
+.tagshare .share{
+    display: flex;
+    align-items: center;
+}
+.tagshare .tags span{
+    color: var(--maincolor);
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.tagshare .share li svg,
+.precomment ul li svg{
+    color: #fff;
+    background-color: #565acf;
+    border-radius: 8px;
+    padding: 8px;
+  margin-right: 10px ;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;  
+        transition: all .5s;  
+
+    box-shadow: 0 10px 40px 0 rgba(31,34,120,.1);
+}
+strong{
+    font-weight: 700;
+    font-size: 18px;
+}
+.precomment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+     border-bottom: 3px solid rgb(86, 90, 207) !important;
+    border-radius: 6px 6px 4px 4px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 10px 30px 0px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    border: 1px solid #dedede;
+}
+.precomment img{
+    width: 120px;
+}
+.precomment ul{
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    padding: 0;
+
+}
+h5{
+    color: #565acf !important;
+}
+h4,h6{
+    color: var(--maincolor) !important;
+}
+.review .commentbody,
+.respond{
+    margin-top: 40px;   
+      border-bottom: 3px solid rgb(86, 90, 207) !important;
+    border-radius: 6px 6px 4px 4px;
+     background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 10px 30px 0px;
+    margin-bottom: 50px;
+    padding: 26px;
+     border: 1px solid #dedede;
+}
+.review .nameimg{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 20px;
+
+}
+.review .commentbody img{
+width: 70px;
+}
+.review .commentdetails p{
+    color: #565acf !important;
+}
+.review .commentdetails h5{
+    color: var(--maincolor) !important;
+}
+ p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #514e4ef4;
+
+}
+.title{
+    color: var(--maincolor);
+    position: relative;
+}
+.review button{
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    line-height: 7px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.title:after {
+    background-image: url(../../img/blogdetails/download.png);
+    background-repeat: no-repeat;
+    bottom: -10px;
+    content: "";
+    height: 7px;
+    left: 0;
+    position: absolute;
+    width: 100px;
+}
+form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.respond .btn{
+border-radius: 5px;
+}
+form{
+    padding: 15px 0;
+}
+.search{
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 10px 30px 0px;
+    margin-bottom: 20px;
+    padding: 15px;
+     border: 1px solid #dedede;
+      border-bottom: 3px solid rgb(86, 90, 207) !important;
+    border-radius: 6px 6px 4px 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input{
+    outline: none;
+    border: none;
+}
+.search svg{
+    color: #fff;
+   background-color: var(--orange);
+   padding: 15px;
+   border-radius: 5px;
+   text-align: center;
+}
+.recentpost .imgpost{
+    width: 100px;
+ border-radius: 12px;
+} 
+.recentpost img{
+    width: 100%;
+}
+.recentpost, .gallery, .tagsdetails{
+ color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 10px 30px 0px;
+    margin-bottom: 20px;
+     border: 1px solid #dedede;
+      border-bottom: 3px solid rgb(86, 90, 207) !important;
+    border-radius: 6px 6px 4px 4px;
+    padding: 20px;
+}
+.recentpost .allpost{
+    display: flex;
+    align-items: center; 
+      margin-top: 20px;
+      gap: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.recentpost .allpost .postdetails p{
+    color: var(--orange);
+}
+.gallery .imgess{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    margin-top: 2rem;
+}
+.gallery .imgess img{
+    width: 30%;
+    height: 110px;
+    margin-right: 10px;
+    transition: 0.3s ease-in-out;
+}
+.gallery .imgess img:hover{
+    opacity: 0.7;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    margin-top: 30px;
+}
+.links a{
+display:inline-block;
+padding: 10px;
+margin: 5px 0;
+color: #fff;
+background-color: #565acf;
+border-radius: 10px;
+
+}
+.custom-sticky {
+    position: sticky;
+    top: 20px;
+    z-index: 1020;
+    height: fit-content;
+
+}
+.blogdetails .container .row{
+    margin: auto !important;
+    display: flex;
+    justify-content: start !important;
+    align-items: start !important;
+}

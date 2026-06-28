@@ -1,0 +1,23 @@
+
+.footer:after {
+    background-image:  url("../../../img/blog/footerzegazg.png");
+top: 0px;
+position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+footer{
+    position: relative;
+    background-image: url("../../../img/footer.d025f458ac691ab6e8fa.jpg");
+    z-index: -100;
+}
+.footer{
+    padding: 100px 0 0 0;
+    margin-top: 28px !important;
+}
